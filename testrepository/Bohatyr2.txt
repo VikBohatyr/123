@@ -1,0 +1,17 @@
+
+1.	Создайте новую ветвь greet_name (где name – Ваша фамилия), используя команду 
+git checkout -b greet_Bohatyr
+2.	Добавьте новый каталог (пример lib_name) и файл greeter_name.rb c содержимым:
+class Greeter
+  def initialize(who)
+    @who = who
+  end
+  def greet
+    "Hello, #{@who}"
+  end
+end
+3.	Сделайте 3 commits в ветку greet_name
+4.	Продемонстрируйте переключение на ветку master.
+5.	Создайте файл README и произведите commit в master.
+6.	Произведите слияние ветвей greet и master – продемонстрируйте историю commits. 
+7.	Изобразите в удобном для Вас графическом редакторе граф коммитов, где вершинами графа будут коды коммитов.
