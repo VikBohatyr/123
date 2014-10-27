@@ -1,7 +1,6 @@
 require 'greeter'
 require 'greeter'
 require 'greeter'
-require 'greeter'
 # Default is World
 name = ARGV.first || "World"
 
